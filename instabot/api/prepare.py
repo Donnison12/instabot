@@ -37,7 +37,7 @@ def get_credentials(username=None):
         print("%d: %s" % (0, "add another account."))
         print("%d: %s" % (-1, "delete all accounts."))
         try:
-            ind = int(input())
+            ind = int(1)
             if ind == 0:
                 add_credentials()
                 continue
